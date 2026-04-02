@@ -1,0 +1,20 @@
+Compound ID,smiles,LogS
+Amprolium,OCC(N1C=C(C)C(=NC=1N)CC2=CC=C(N)C=C2)(C)C,-1.11
+Tetracycline,CN(C)[C@@H]1[C@@H](O)[C@@H](O)C(=O)C(=C(O)[C@@]1(O)C(=O)N)C(=O)C2=C(O)C3=C(C=C2)C(=O)C4=C(C=CC=C4O)[C@@]3(O)C,-2.95
+Benzocaine,NC1=CC=C(C=C1)C(=O)OCC,-1.93
+Benzocaine,CCOC(=O)C1=CC=C(N)C=C1,-1.93
+Saccharin,O=C1NS(=O)(=O)C2=CC=C=CC12,-1.59
+Terbutaline,CC(C)(C)NCC(O)C1=CC(O)=CC(O)=C1,-0.38
+Verapamil,CC(C)C(CCCN(C)CCC1=CC(=C(C=C1)OC)OC)(C#N)C2=CC(=C(C=C2)OC)OC,-3.87
+Quinidine,COC1=CC2=C(C=CN=C2C=C1)[C@H](O)[C@@H]3C[C@@H]4CN3CC[C@@H]4C=C,-2.57
+Furosemide,NS(=O)(=O)C1=CC(=C(Cl)C=C1C(=O)NCC2=CC=O)Cl,-3.01
+Hydrochlorothiazide,NS(=O)(=O)C1=CC2=C(NCNS2(=O)=O)C=C1Cl,-2.19
+Chlorthalidone,NC1=C(Cl)C=C(C=C1)C2(O)NC(=O)C3=CC=CC=C23,-2.57
+Propranolol,CC(C)NCC(O)COC1=CC=CC2=C1C=CC=C2,-2.72
+Atenolol,CC(C)NCC(O)COC1=CC=C(CC(N)=O)C=C1,-0.57
+Nadolol,CC(C)(C)NCC(O)COC1=CC=CC2=C1[C@H](O)[C@H](O)CC2,-1.28
+Metoprolol,CC(C)NCC(O)COC1=CC=C(CCOC)C=C1,-0.12
+Timolol,CC(C)(C)NCC(O)COC1=NSN=C1N2CCOCC2,-1.19
+Pindolol,CC(C)NCC(O)COC1=CC=CC2=C1C=CN2,-1.65
+Alprenolol,CC(C)NCC(O)COC1=CC=CC=C1CC=C,-1.18
+Oxprenolol,CC(C)NCC(O)COC1=CC=CC=C1OCC=C,-1.4
