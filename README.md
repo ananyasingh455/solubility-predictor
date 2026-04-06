@@ -1,10 +1,22 @@
-# Molecular Solubility Predictor
+#  Molecular Solubility Analysis using Python
 
-This project uses Machine Learning (Random Forest) and the **RDKit** cheminformatics library to predict the aqueous solubility ($LogS$) of small organic molecules based on their SMILES strings.
+##  Overview
+This project focuses on analyzing the solubility of chemical compounds using a dataset containing molecular information. Each compound is represented using its SMILES notation along with its solubility value (LogS).
 
-## Overview
-The model is trained on the **Delaney (ESOL) Dataset**. It extracts four key molecular descriptors:
-1. **MolLogP**: Octanol-water partition coefficient.
-2. **MolWt**: Molecular Weight.
-3. **NumRotatableBonds**: Flexibility of the molecule.
-4. **Aromatic Proportion**: Ratio of aromatic atoms to heavy atoms.
+The project demonstrates basic data handling, analysis, and visualization using Python.
+
+
+## Dataset
+The dataset includes the following columns:
+
+- **Compound ID** – Name of the chemical compound  
+- **SMILES** – Structural representation of the molecule  
+- **LogS** – Logarithmic solubility value in water  
+
+
+##  Tech Stack
+- Python  
+- Pandas  
+- Matplotlib  
+- OS Module  
+
