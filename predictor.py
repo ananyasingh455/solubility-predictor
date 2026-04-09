@@ -1,6 +1,4 @@
- # Molecular Solubility Dataset Analyzer and Visualizer
-
-import pandas as pd
+ import pandas as pd
 import os
 import matplotlib.pyplot as plt
 
@@ -28,28 +26,11 @@ if not molecule.empty:
     
     plt.figure(figsize=(10, 6))
     
-    df['LogS'].plot(
-        kind='hist',
-        bins=20,
-        density=True,
-        alpha=0.6,
-        edgecolor='black',
-        label='Dataset Distribution'
-    )
+    df['LogS'].plot( kind='hist', bins=20, density=True, alpha=0.6, edgecolor='black', label='Dataset Distribution' )
     
-    df['LogS'].plot(
-        kind='density',
-        linewidth=2,
-        label='Density Curve'
-    )
+    df['LogS'].plot( kind='density', linewidth=2, label='Density Curve' )
     
-    plt.axvline(
-        logs_value,
-        color='red',
-        linestyle='solid',
-        linewidth=2,
-        label=f'{compound_name} (LogS = {logs_value})'
-    )
+    plt.axvline( logs_value,  color='red', linestyle='solid', linewidth=2, label=f'{compound_name} (LogS = {logs_value})' )
     
     plt.title("Solubility Distribution with Selected Molecule")
     plt.xlabel("LogS")
@@ -65,32 +46,17 @@ else:
 
      
     df.to_csv(file_name, index=False)
-    print(" Dataset saved locally as 'dataset.csv'.")
-
- 
+    print(" Dataset saved locally as 'dataset.csv'.") 
 
 print("\n Statistical Summary:")
 print(df.describe())
 
-
 if 'LogS' in df.columns:
     plt.figure(figsize=(10, 6))
-
     
-    df['LogS'].plot(
-        kind='hist',
-        bins=20,
-        density=True,
-        alpha=0.6,
-        edgecolor='black',
-        label='Histogram'
-    )
+    df['LogS'].plot( kind='hist', bins=20,  density=True, alpha=0.6, edgecolor='black', label='Histogram')
 
-    df['LogS'].plot(
-        kind='density',
-        linewidth=2,
-        label='Density Curve'
-    )
+    df['LogS'].plot( kind='density', linewidth=2, label='Density Curve')
  
     mean_value = df['LogS'].mean()
     median_value = df['LogS'].median()
@@ -107,6 +73,5 @@ if 'LogS' in df.columns:
     plt.legend()
     plt.tight_layout()
 
-   
 else:
     print(" Column 'LogS' not found in dataset.")
