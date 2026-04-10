@@ -19,4 +19,3 @@ The dataset includes the following columns:
 - Pandas  
 - Matplotlib  
 - OS Module  
-
